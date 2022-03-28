@@ -1,0 +1,148 @@
+/* removes default browser styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* applies background color, font color, font family, and font size to the entire webpage */
+body {
+    background-color: #d9dcd6;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+/* applies padding and a different background color to the entire navigation bar */
+header {
+    padding: 20px;
+    background-color: #2a607c;
+}
+
+/* defines the alignment of the company name and applies different font-family and font size to it */
+header h1 {
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 48px;
+}
+
+/* changes the color of "seo" in the company name */
+header h1 span {
+    color: #d9dcd6;
+}
+
+/* defines the alignment of the navigation tabs within the navigation bar in relation to company name and applies a different font size */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+}
+
+/* removes bullet points from unordered list items, which are the navigation tabs */
+header nav ul {
+    list-style-type: none;
+}
+
+/* defines the alignment of each navigation tab in relation to each other */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* removes default hyperlink text formatting */
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* inserts hero image, defines its size, and defines its alignment */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* determines the size and alignment of the services section of the webpage */
+.services {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* determines the size and alignment of each content box and applies a blue background */
+.service {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+/* defines the height of each image tied to each service */
+.service img {
+    max-height: 200px;
+}
+
+/* aligns item (text or image) to the left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* aligns item (text or image) to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* applies larger font size to service header and aligns it in relation to service text within each box */
+.service h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* determines the size and alignment of the benefits section of the webpage and applies blue background */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    background-color: #2589bd;
+}
+
+/* determines the alignment of each benefit (text+image) in relation to each other */
+.benefits div {
+    margin-bottom: 32px;
+}
+
+/* applies a larger font and determines the alignment of the each benefit header in relation the image */
+.benefits div h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* determines the size and alignment of the benefit image */
+.benefits div img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* applies different font family and font color, aligns the text, and determines the alignment for the entire footer section */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: black;
+}
+
+/* applies different font size to footer text */
+footer h2 {
+    font-size: 20px;
+}
